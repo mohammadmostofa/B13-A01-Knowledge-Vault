@@ -142,8 +142,13 @@ text-align: center;
 /* hero_title */
 
 .hero_title{
-  font-size: 72px;
+  font-size: 74px;
   color: white;
+  text-transform: capitalize;
+  font-weight: 800;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  
   
 }
 
