@@ -66,26 +66,30 @@ img{
 
 
 .nav_menu li{
-  list-style: none;
+  
+  list-style:none;
 }
 
-.nav_menu a{
 
+.nav_menu a{
+   padding: 10px 14px;
   text-decoration: none;
- font-size: 16px;
- color: #001931;
- font-weight:600;
-  transition-delay: .3s;
+  font-size: 16px;
+  color: #001931;
+  font-weight:600;
+  transition-delay: .4s;
 }
 
 /* a hover */
+
 
 .nav_menu a:hover{
   background-color: #8060ff;
   color: white;
   padding: 10px 14px;
   border-radius: 4px;
-  transition: .2s;
+  transition: .3s ease-in-out;
+  cursor: pointer;
 }
 
 
