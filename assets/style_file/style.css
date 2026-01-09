@@ -157,10 +157,10 @@ text-align: center;
 color: #008135;
 }
 
-.description{
+p.description{
   font-size: 24px;
-  color:white;
-text-align: center;
+  color:rgb(255, 255, 255);
+  text-align: center;
 }
 
 /* btn_con */
@@ -210,9 +210,7 @@ i.fa-solid.fa-arrow-right{
 
 .note_section{
 
-  max-height: 100px;
-  margin: 0 auto;
-  
+  margin: 0 auto;  
 
 }
 
@@ -293,4 +291,83 @@ i.fa-solid.fa-arrow-right{
   background-color: #F95555;
   border-radius: 50%;
 
+}
+
+/* blog_section */
+.blog_section{
+
+  text-align: center;
+  margin: 0 auto;
+ 
+}
+
+.blog_container{
+ 
+  display: flex;
+   justify-content: center;
+   text-align: center;
+   padding: 120px;
+   gap: 0px  60px;
+
+}
+
+.blog_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 54%;
+  
+}
+
+
+
+.blog_img{
+ width:650px;
+ height: auto;
+}
+
+/* check_des */
+.check_des{
+
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  gap: 10px 0px;
+
+}
+
+.blog_sub_title{
+
+  font-size: 24px;
+  font-weight: 500;
+ 
+
+}
+
+.blog_title{
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.blog_description{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: black;
+}
+
+
+/* check_des */
+
+
+.fa-solid, .fas {
+    margin-right: 0px;
+    border:none;
+  padding:5px;
+  border-radius: 50%;
+  background-color: #008135;
+  color: white;
+ 
 }
