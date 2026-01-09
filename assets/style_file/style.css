@@ -357,3 +357,23 @@ margin-bottom: 40px;
     color: white;
     
 }
+
+/* ready_section */
+
+.ready_section{
+  margin: 120px ;
+}
+
+
+
+
+/* ready_container */
+
+.ready_container{
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #F7F6F2;
+}
